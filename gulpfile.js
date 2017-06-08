@@ -28,9 +28,9 @@ gulp.task('watch',function() {
 			server: "public/",
 			logFileChanges: true
 		});
-    gulp.watch("bin/pug/**/*", ["pug"]);
-    gulp.watch("bin/sass/**/*", ["sass"]);
-    gulp.watch("/src/**/*").on("change", function() {
+    gulp.watch("src/pug/**/*", ["pug"]);
+    gulp.watch("src/scss/**/*", ["sass"]);
+    gulp.watch("src/**/*").on("change", function() {
 			// Delay browser reload by 1 second
 			setTimeout(function () {
 				browserSync.reload()

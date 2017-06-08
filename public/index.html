@@ -4,7 +4,43 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
   </head>
-  <body></body>
+  <body>
+    <div class="card">
+      <div class="top-header">
+        <h1>Levi Zitting</h1>
+      </div><img class="profile-img" src="images/levi.jpg">
+      <h2>Here's Some Info About Me</h2>
+      <div class="profile-text">
+        <p>
+          I am a 19 year old Web Developer based in Southwest Missiouri. 
+          I love learning about and using technology.
+          If i'm not writing code, you can usually find me building custom desktop PC's or playing video games.
+        </p>
+      </div><br><br>
+      <div class="connect">
+        <h2>Connect With Me</h2>
+        <div class="twitter social"><img src="images/twitter.png">
+          <p><a href="https://twitter.com/levi_zitting" target="_blank">@levi_zitting</a></p>
+        </div>
+        <div class="github social"><img src="images/github.png">
+          <p><a href="https://github.com/glitchedmob" target="_blank">@glitchedmob</a></p>
+        </div>
+      </div>
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="John Doe">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="10" placeholder="Your message here"></textarea>
+          <input class="btn" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
