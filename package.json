@@ -1,0 +1,27 @@
+{
+  "name": "sb-html-and-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glitchedmob/SB-HTML-and-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glitchedmob/SB-HTML-and-CSS/issues"
+  },
+  "homepage": "https://github.com/glitchedmob/SB-HTML-and-CSS#readme",
+  "devDependencies": {
+    "pug": "^2.0.0-rc.2",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.5.2"
+  }
+}
